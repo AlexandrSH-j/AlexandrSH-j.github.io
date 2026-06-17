@@ -209,7 +209,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 156.111px;
+    padding-left: calc(50% - 600px);
 }
 
 .breadcrumbs-catalog__left-box {
