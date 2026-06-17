@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+    .header-site {
+        gap: 65px;
+    }
+
+    .cart {
+        grid-template-columns: repeat(8, 1fr);
+        padding-left: 25px;
+        padding-right: 25px;
+
+        &__buttons {
+            margin-bottom: 32px;
+        }
+    }
+
+    .order {
+        grid-column: span 3;
+    }
+
+    .breadcrumbs-catalog {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .logo {
+        padding-left: 24px;
+        size: 36px;
+    }
+
+    .nav {
+        padding-right: 24px;
+
+        &__link {
+            size: 64px;
+        }
+    }
+
+    .article-site-title {
+        padding-left: 24px;
+        size: 64px;
+    }
+
+    .article-site__paragraf {
+        size: 64px;
+        padding-left: 24px;
+    }
+
+    .article-site-catalog {
+        size: 16px;
+        padding-left: 24px;
+    }
+
+    .filtering-form {
+        right: calc(91% - 358px);
+
+    }
+
+    .for-box {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .for {
+        gap: 30px;
+    }
+
+    .product-box__title {
+        padding-left: 24px;
+    }
+
+    .product-box__content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product-box__article {
+        width: calc(50% - 28px);
+    }
+
+    .main-link {
+        padding-left: 24px;
+        display: block;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        &__content {
+            width: 100%;
+            justify-content: center; 
+        }
+
+        &__log {
+            display: none;
+        }
+
+        &__info {
+            gap: 228px;
+            width: 100%;
+        }
+
+        &__form {
+            margin-left: 49px;
+            grid-column: 1 / -1;
+            justify-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 12px;
+            width: 100%;
+            max-width: 260px;
+            margin-left: 0px;
+        }
+    }
+}
