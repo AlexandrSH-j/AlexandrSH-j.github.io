@@ -139,6 +139,8 @@
 
     &__buttons {
         padding-top: 28px;
+        display: flex;
+        gap: 7px;
     }
 
     &__button {
