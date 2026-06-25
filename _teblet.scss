@@ -90,7 +90,6 @@
 
         &__content {
             width: 100%;
-            justify-content: center; 
         }
 
         &__log {
@@ -98,8 +97,9 @@
         }
 
         &__info {
-            gap: 228px;
-            width: 100%;
+            gap: 30px; 
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
         &__form {
