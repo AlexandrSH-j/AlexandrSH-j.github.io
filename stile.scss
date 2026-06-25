@@ -133,7 +133,7 @@ body {
 .article-site-catalog {
     font-size: 16px;
     line-height: 24px;
-    text-decoration: underline;
+    text-decoration: none;
     padding-top: 127px;
     padding-bottom: 126px;
     color: white;
@@ -741,7 +741,8 @@ body {
 }
 
 .footer__content {
-    width: 792px;
+    max-width: 792px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -749,7 +750,9 @@ body {
 
 .footer__info {
     display: flex;
-    gap: 129px;
+    gap: 40px 129px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .footer__title {
