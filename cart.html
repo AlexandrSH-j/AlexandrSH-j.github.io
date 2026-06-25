@@ -19,7 +19,7 @@
                     <input class="header-site__input" type="search" placeholder="Поиск">
                     <nav class="nav">
                         <a href="catalog.html" class="nav__link">Каталог</a>
-                        <a href="#" class="nav__link">Корзина</a>
+                        <a href="cart.html" class="nav__link">Корзина</a>
                     </nav>
                     <div class="nav-mobile">
                         <a href="#">
@@ -96,13 +96,13 @@
                 </div>
    
             </div>
-            <div class="order">
+            <form class="order">
                 <h2 class="order__title">Оформление заказа</h2>
-                <div class="order__fields">
-                    <input class="order__input type=text" placeholder="Имя Фамилия" autocomplete="off">
-                    <input class="order__input" type="tel" placeholder="+7 904 000 80 80" autocomplete="off">
-                    <input class="order__input" type="text" placeholder="Адрес доставки" autocomplete="off">
-                </div>
+                <label class="order__fields">
+                    <input class="order__input type=text" placeholder="Имя Фамилия" required autocomplete="off">
+                    <input class="order__input" type="tel" placeholder="+7 904 000 80 80" required autocomplete="off">
+                    <input class="order__input" type="text" placeholder="Адрес доставки" required autocomplete="off">
+                </label>
                 <div class="order__total">
                     <p class="order__total-label">Итог: </p>
                     <p class="order__total-price">128 000 руб.</p>
@@ -110,7 +110,7 @@
                 <div class="order__submit">
                     <a class="order__button" href="#">Оформить заказ</a>
                 </div>
-            </div>
+            </form>
         </div>
 
         <section class="product-box centr">
