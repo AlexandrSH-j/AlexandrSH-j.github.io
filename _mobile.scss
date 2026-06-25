@@ -4,6 +4,10 @@
         padding-right: 16px;
     }
 
+    .hero-page {
+        margin-bottom: 32px;
+    }
+
     .header-site {
         border-bottom: none;
         padding-top: 49.5px;
@@ -146,13 +150,23 @@
     }
 
     .product-box {
+        margin-top: 32px;
+        padding: 0;
+        font-size: 24px;
+        line-height: 100%;
+
         &__content {
             row-gap: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
         }
         
         &__title {
             font-size: 24px;
             line-height: 100%;
+            max-width: 342.9px;
+            max-height: 58px;
+            padding-left: 16px;
         }
         
         &__article {
@@ -262,12 +276,6 @@
             padding-top: 24px;
         }
     }
-
-    .product-box {
-        margin-top: 48px;
-        font-size: 24px;
-        line-height: 100%;
-    }
     
     .main-link {
         font-size: 16px;
@@ -283,10 +291,11 @@
         font-size: 16px;
         font-weight: 400;
         text-decoration: underline;
-        padding-left: 24px;
-        margin: 31px 0 64px;
         color: black;
         display: block;
+        padding-left: 16px;
+        margin-top: 36px;
+        margin-bottom: 36px; 
     }
 
     .footer {
